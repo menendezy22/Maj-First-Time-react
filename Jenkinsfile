@@ -19,11 +19,7 @@ pipeline {
             }
         }
         
-        stage('Archive Artifacts') {
-            steps {
-                archiveArtifacts artifacts: 'build/**/*', fingerprint: true
-            }
-        }
+        
     }
     
     post {
