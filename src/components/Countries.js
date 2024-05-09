@@ -24,7 +24,7 @@ const Countries = () => {
     }
 
     const testOps = () => {
-      console.log("changes");
+      console.log("dog");
     };
     // utilisation d un API sur le net
 
